@@ -1,7 +1,7 @@
 // #base_team fun bot source .
 // writed by #Mr.pourya @PvSuDo
 <?php
-$token = 'توکنن دریافتی از @botfather';
+$token = '298443030:AAFxjVr1PvixjUMUzv3NZDf1dhC29b_I7Do';
 $json = file_get_contents('php://input')
 $telegram = urldecode ($json);
 $results = json_decode($telegram);
